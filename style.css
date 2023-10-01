@@ -1,0 +1,29 @@
+.form-select {
+  background-image: url(./images/globe2.svg);
+  padding: 0.2rem;
+  width: 2rem;
+  background-size: 1.2rem;
+  background-position: center;
+  color: white;
+}
+
+.select_lang {
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  border: none !important ;
+  text-indent: 100%;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+select:focus,
+select:hover,
+option:hover,
+option:focus {
+  border: none !important;
+  outline: none !important;
+  border: transparent !important;
+}
+
+.hide {
+  display: none;
+}
