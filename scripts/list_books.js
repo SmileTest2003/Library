@@ -6,19 +6,31 @@ const books = [
   },
   {
     name: "Политология",
-    type: "книга",
-    url: "../books/Политология.docx",
+    type: "тест",
+    url: "../books/политология_ответы.docx",
   },
   {
-    name: "Политология",
-    type: "книга",
-    url: "../books/Политология.docx",
+    name: "ВИИ",
+    type: "тест",
+    url: "../books/тесты_ВИИ.docx",
   },
   {
-    name: "Политология",
+    name: "Этика и Эстетика",
+    type: "тест",
+    url: "../books/ЭТИКА_И_ЭСТЕТИКА.docx",
+  },
+
+  {
+    name: "Русский ПК 2",
+    type: "тест",
+    url: "../books/тесты_пк_2_русский .docx",
+  },
+  {
+    name: "Python для начинающих",
     type: "книга",
-    url: "../books/Политология.docx",
+    url: "../books/Python для начинающих.pdf",
   },
 ];
 
 export default books;
+
